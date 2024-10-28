@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Governança do Fundo Cripto</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #1e1e1e;
+      color: #f5f5f5;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    h1 {
+      color: #00ff99;
+    }
+    .votacao-form {
+      margin-top: 20px;
+    }
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    input[type="text"], input[type="submit"] {
+      padding: 10px;
+      font-size: 16px;
+      margin-bottom: 10px;
+      width: 100%;
+    }
+    input[type="submit"] {
+      background-color: #00ff99;
+      border: none;
+      cursor: pointer;
+      color: #1e1e1e;
+    }
+    input[type="submit"]:hover {
+      background-color: #00cc7a;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Votação para Tokens do Fundo Cripto</h1>
+    <p>Escolha o token que você gostaria que fosse adicionado à governança do fundo de investimento.</p>
+    
+    <form class="votacao-form" action="https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec" method="POST">
+      <label for="token">Nome do Token</label>
+      <input type="text" id="token" name="token" required>
+      
+      <input type="submit" value="Submeter Voto">
+    </form>
+  </div>
+</body>
+</html>
