@@ -1,7 +1,3 @@
-# Análise de Votação de Ativos
-
-Este projeto analisa os resultados de uma votação sobre a preferência de investimento em diferentes ativos. Os dados da votação são extraídos de uma planilha Google Sheets, processados e visualizados em gráficos de barras e radar.
-
 ## Funcionalidades
 
 * **Extração de dados:** Lê os dados da votação de uma planilha Google Sheets especificada.
